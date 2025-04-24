@@ -85,7 +85,6 @@ export default function Payment() {
     return (
         <div className='PaymentPage'>
             <div className="PaymentWindow">
-
                 <img src="./I4.jpg" alt="..." className='PaymetLeftImg' />
                 <form className="PaymentForm" onSubmit={(e) => {  handleClick(e) }}>
                     <p className='PaymentHeading'>Your details

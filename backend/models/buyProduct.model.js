@@ -20,6 +20,14 @@ const buyProduct = new mongoose.Schema({
     price:{
         type: Number,
         required: true
+    },
+    date:{
+        type: String,
+        required: true
+    },
+    status:{
+        type: String,
+        required: true
     }
 })
 const BuyProduct = new mongoose.model("BuyProduct", buyProduct)

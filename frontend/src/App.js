@@ -3,6 +3,7 @@ import './CSS/NavBar.css';
 import './CSS/Shop.css';
 import './CSS/Cart.css';
 import './CSS/Login.css';
+import './CSS/SignUp.css';
 import Home from './components/Home';
 import NavBar from './components/NavBar';
 import Shop from './components/Shop';
@@ -37,12 +38,12 @@ function App() {
       <BrowserRouter>
         <NavBar></NavBar>
         <Routes>
-          <Route path='/' element={<Home ></Home>} />
-          <Route path='/Shop' element={<Shop></Shop>} />
-          <Route path='/Cart' element={<Cart></Cart>} />
-          <Route path='/Login' element={<Login></Login>} />
-          <Route path='/SignUp' element={<SignUp></SignUp>} />
-          <Route path='/Payment' element={<Payment></Payment>} />
+          <Route path='/' element={<Home />} />
+          <Route path='/Shop' element={<Shop/>} />
+          <Route path='/Cart' element={<Cart/>} />
+          <Route path='/Login' element={<Login/>} />
+          <Route path='/SignUp' element={<SignUp/>} />
+          <Route path='/Payment' element={<Payment/>} />
         </Routes>
       </BrowserRouter>
     </UserContext.Provider>

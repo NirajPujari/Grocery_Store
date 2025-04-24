@@ -1,0 +1,244 @@
+.orders-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.orders-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.orders-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.export-btn, .view-all-btn {
+  padding: 8px 16px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
+
+.export-btn {
+  background-color: white;
+  border: 1px solid #d1d5db;
+  color: #374151;
+}
+
+.view-all-btn {
+  background-color: #2563eb;
+  color: white;
+}
+
+.view-icon {
+  margin-right: 6px;
+}
+
+.orders-table-container {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.orders-search-bar {
+  padding: 16px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.search-wrapper {
+  position: relative;
+}
+
+.search-input {
+  width: 96%;
+  padding: 8px 12px 8px 36px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+  color: #9ca3af;
+}
+
+.table-scroll {
+  overflow-x: auto;
+}
+
+.orders-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.orders-table thead {
+  background-color: #f9fafb;
+}
+
+.table-header {
+  padding: 12px 24px;
+  font-size: 14px;
+  color: #374151;
+  text-align: left;
+  font-weight: 500;
+}
+
+.table-row:hover {
+  background-color: #f3f4f6;
+}
+
+.order-id,
+.order-customer,
+.order-date,
+.order-items,
+.order-total {
+  padding: 12px 24px;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 4px 8px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 12px;
+}
+
+.status-badge.delivered {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.status-badge.shipped {
+  background-color: #bfdbfe;
+  color: #1e3a8a;
+}
+
+.status-badge.processing {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+.status-badge.default {
+  background-color: #f3f4f6;
+  color: #4b5563;
+}
+
+.actions-column {
+  text-align: right;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-btn {
+  background: none;
+  border: none;
+  color: #9ca3af;
+  cursor: pointer;
+}
+
+.dropdown-btn:hover {
+  color: #6b7280;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  right: 0;
+  margin-top: 8px;
+  width: 180px;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  z-index: 10;
+  flex-direction: column;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: flex;
+}
+
+.dropdown-item {
+  padding: 10px 16px;
+  font-size: 14px;
+  text-align: left;
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  color: #374151;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: #f3f4f6;
+}
+
+.dropdown-item .icon {
+  margin-right: 8px;
+}
+
+.view-details {
+  color: #2563eb;
+}
+
+.edit {
+  color: #4b5563;
+}
+
+.cancel {
+  color: #dc2626;
+}
+
+.no-results {
+  text-align: center;
+  padding: 16px;
+  color: #6b7280;
+}
+
+.pagination-container {
+  padding: 16px 24px;
+  border-top: 1px solid #e5e7eb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9fafb;
+}
+
+.pagination-info {
+  font-size: 14px;
+  color: #4b5563;
+}
+
+.pagination-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.pagination-btn {
+  padding: 6px 12px;
+  font-size: 14px;
+  background: white;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  color: #374151;
+  cursor: pointer;
+}
+
+.pagination-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

@@ -51,7 +51,7 @@ export default function Login() {
     return (
         <div className="LoginWindow">
             <form className='LoginForm'>
-                <span className='LoginTitle'>log in your account</span>
+                <span className='LoginTitle'>Log Into your Account</span>
                 <span className='LogInWithGoogle'> <img src="./google.png" alt="" className='LoginImg' /> <span>log in with google</span> </span>
                 <span className='or'>or</span>
                 <div className="inputBox">

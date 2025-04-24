@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 import { MongoClient } from "mongodb";
 
 const uri =
-	"mongodb+srv://pujariniraj09:pujari.niraj999@db.sahsa.mongodb.net/?retryWrites=true&w=majority&appName=DB"; // Replace with your Mongo URI
+	"mongodb+srv://vision:visionapi010@adityadb.pnrys.mongodb.net/?retryWrites=true&w=majority&appName=AdityaDB"; // Replace with your Mongo URI
 const dbName = "aditya"; // Replace with your DB name
 
 export default defineConfig({

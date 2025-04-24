@@ -4,7 +4,7 @@ import { MongoClient } from "mongodb";
 
 const uri =
 	"mongodb+srv://vision:visionapi010@adityadb.pnrys.mongodb.net/?retryWrites=true&w=majority&appName=AdityaDB"; // Replace with your Mongo URI
-const dbName = "aditya"; // Replace with your DB name
+const dbName = "grocerydb"; // Replace with your DB name
 
 export default defineConfig({
 	plugins: [
